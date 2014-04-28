@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/gMode"
+        android:title="緊急召集"
+        android:icon="@drawable/g">
+    </item>
+    <item
+        android:id="@+id/autoRefreshOff"
+        android:title="自動更新を無効にする"
+        android:icon="@drawable/jun" >
+    </item>
+    <item
+        android:id="@+id/autoRefreshOn"
+        android:title="自動更新を有効にする"
+        android:icon="@drawable/jun" >
+    </item>
+     <item
+        android:id="@+id/refresh"
+        android:title="手動同期"
+        android:icon="@drawable/jun" >
+            </item>
+
+</menu>

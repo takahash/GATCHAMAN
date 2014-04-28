@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="40px"
+android:orientation="vertical" 
+android:background="#fff">
+
+<LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:layout_weight="1">
+<ImageView
+    android:id="@+id/img"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_weight="0"
+android:layout_gravity="center_vertical"
+android:src="@drawable/jun">
+</ImageView>
+<TextView
+android:id="@+id/userName"
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:text="ユーザー名"
+android:layout_weight="1"
+android:layout_gravity="center_vertical" >
+</TextView>
+<TextView
+    android:id="@+id/userLocate"
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:text="位置情報"
+android:layout_weight="1"
+android:layout_gravity="center_vertical" >
+</TextView>
+</LinearLayout>
+</LinearLayout>

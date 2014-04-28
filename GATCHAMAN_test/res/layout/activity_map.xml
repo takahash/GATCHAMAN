@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:id="@+id/mainFrame">
+
+   
+
+    <FrameLayout
+        android:id="@+id/textFrame"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:layout_gravity="bottom" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="200px"
+    android:layout_gravity="bottom"
+    android:orientation="vertical" >
+
+<include
+    android:id="@+id/user1"
+    layout="@layout/user" />
+        
+<include layout="@layout/user"
+        android:id="@+id/user2"/> 
+        
+<include layout="@layout/user"
+        android:id="@+id/user3"/> 
+        
+<include layout="@layout/user"
+        android:id="@+id/user4"/> 
+        
+<include layout="@layout/user"
+        android:id="@+id/user5"/> 
+
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>
